@@ -1,0 +1,226 @@
+[
+  {
+    "name": "Mailchimp",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Mailchimp provides email marketing automation and transactional messaging tools.",
+    "auth_methods": [
+      "api_key",
+      "oauth2"
+    ],
+    "access": "trial",
+    "api_type": "rest",
+    "api_breadth": "large",
+    "endpoint_estimate": null,
+    "existing_mcp": "unclear",
+    "mcp_url": null,
+    "buildability": "ready",
+    "main_blocker": "none",
+    "webhooks": "yes",
+    "openapi_spec": "yes",
+    "rate_limits_documented": "unclear",
+    "sandbox_or_test_mode": "unclear",
+    "evidence": [
+      {
+        "field": "auth_methods",
+        "url": "https://mailchimp.com/help/about-api-keys/",
+        "quote": "how to generate an API key to grant access"
+      },
+      {
+        "field": "access",
+        "url": "https://mailchimp.com/pricing/marketing/",
+        "quote": "Try free for 14 days"
+      },
+      {
+        "field": "buildability",
+        "url": "https://mailchimp.com/help/about-api-keys/",
+        "quote": "To generate an API key, follow these steps."
+      }
+    ],
+    "confidence": "high",
+    "needs_human": true,
+    "notes": "",
+    "id": 35,
+    "pages_fetched": [
+      "https://mailchimp.com/developer",
+      "https://mailchimp.com/help/about-api-keys/",
+      "https://mailchimp.com/developer/marketing/api-concepts/api-structure",
+      "https://mailchimp.com/pricing/marketing/",
+      "https://mailchimp.com/developer/marketing/build/start-developing/set-up-an-oauth-app"
+    ],
+    "re_researched": true,
+    "verifier_flags_before": 4,
+    "verifier_flags_after": 4
+  },
+  {
+    "name": "Sherlock",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "Sherlock is an open-source tool to find social media accounts by username across social networks.",
+    "auth_methods": [
+      "none"
+    ],
+    "access": "unclear",
+    "api_type": "unclear",
+    "api_breadth": "unclear",
+    "endpoint_estimate": null,
+    "existing_mcp": "unclear",
+    "mcp_url": null,
+    "buildability": "blocked",
+    "main_blocker": "poor_docs",
+    "webhooks": "unclear",
+    "openapi_spec": "unclear",
+    "rate_limits_documented": "unclear",
+    "sandbox_or_test_mode": "unclear",
+    "evidence": [],
+    "confidence": "low",
+    "needs_human": true,
+    "notes": "The provided GitHub repository text contains only commit history and directory listings without documentation or README content. Other URLs refer to unrelated products (CloudFerro Sherlock AI, Sherlocks AI, OpenRouter) or third-party wrappers (Apify actor).",
+    "id": 58,
+    "pages_fetched": [
+      "https://github.com/sherlock-project/sherlock",
+      "https://docs.cloudferro.com/en/latest/sherlock/Sherlock-authentication-API-keys-on-CloudFerro-Cloud/Sherlock-authentication-API-keys-on-CloudFerro-Cloud.html",
+      "https://docs.cloudferro.com/en/latest/sherlock/Package-installation-and-examples-of-Sherlock-AI-code-on-CloudFerro-Cloud.html",
+      "https://apify.com/misceres/sherlock/api",
+      "https://auth0.com/blog/why-migrate-from-api-keys-to-oauth2-access-tokens/",
+      "https://www.sherlocks.ai/pricing",
+      "https://openrouter.ai/openrouter/sherlock-think-alpha"
+    ],
+    "re_researched": true,
+    "verifier_flags_before": 6,
+    "verifier_flags_after": 5
+  },
+  {
+    "name": "Linear",
+    "category": "Productivity and Project Management",
+    "one_liner": "Linear is an issue tracking and project management platform built for modern software teams.",
+    "auth_methods": [
+      "oauth2",
+      "api_key"
+    ],
+    "access": "self_serve_free",
+    "api_type": "graphql",
+    "api_breadth": "unclear",
+    "endpoint_estimate": null,
+    "existing_mcp": "official",
+    "mcp_url": "https://mcp.linear.app/mcp",
+    "buildability": "ready",
+    "main_blocker": "none",
+    "webhooks": "yes",
+    "openapi_spec": "unclear",
+    "rate_limits_documented": "yes",
+    "sandbox_or_test_mode": "unclear",
+    "evidence": [
+      {
+        "field": "auth_methods",
+        "url": "https://developers.linear.app",
+        "quote": "Use OAuth 2.0 or personal API keys"
+      },
+      {
+        "field": "access",
+        "url": "https://linear.app/pricing",
+        "quote": "API and webhook access Included"
+      },
+      {
+        "field": "existing_mcp",
+        "url": "https://linear.app/docs/mcp",
+        "quote": "Linear\u2019s MCP server follows the authenticated remote MCP spec"
+      }
+    ],
+    "confidence": "high",
+    "needs_human": true,
+    "notes": "Linear provides a GraphQL API, official MCP server hosted remotely, and grants API/webhook access on its free tier.",
+    "id": 73,
+    "pages_fetched": [
+      "https://developers.linear.app",
+      "https://linear.app/developers/oauth-2-0-authentication",
+      "https://linear.app/developers",
+      "https://linear.app/pricing",
+      "https://linear.app/docs/mcp",
+      "https://github.com/jerhadf/linear-mcp-server"
+    ],
+    "verifier_flags_before": 4,
+    "verifier_flags_after": 4
+  },
+  {
+    "name": "Stripe",
+    "category": "Finance and Fintech",
+    "one_liner": "Stripe provides payment processing and financial infrastructure for online commerce.",
+    "auth_methods": [
+      "oauth2"
+    ],
+    "access": "unclear",
+    "api_type": "unclear",
+    "api_breadth": "large",
+    "endpoint_estimate": null,
+    "existing_mcp": "unclear",
+    "mcp_url": null,
+    "buildability": "ready_with_caveats",
+    "main_blocker": "poor_docs",
+    "webhooks": "unclear",
+    "openapi_spec": "unclear",
+    "rate_limits_documented": "unclear",
+    "sandbox_or_test_mode": "yes",
+    "evidence": [
+      {
+        "field": "auth_methods",
+        "url": "https://docs.stripe.com/stripe-apps/api-authentication/oauth",
+        "quote": "OAuth 2.0"
+      },
+      {
+        "field": "buildability",
+        "url": "https://docs.stripe.com/stripe-apps/api-authentication/oauth",
+        "quote": "Build Stripe apps"
+      }
+    ],
+    "confidence": "low",
+    "needs_human": true,
+    "notes": "Provided pages contain mostly navigation sidebars and menus rather than documentation text.",
+    "id": 81,
+    "pages_fetched": [
+      "https://stripe.com/docs/api",
+      "https://docs.stripe.com/api/authentication",
+      "https://docs.stripe.com/api",
+      "https://stripe.com/pricing",
+      "https://docs.stripe.com/stripe-apps/api-authentication/oauth"
+    ],
+    "re_researched": true,
+    "verifier_flags_before": 4,
+    "verifier_flags_after": 4
+  },
+  {
+    "name": "Mermaid CLI",
+    "category": "AI, Research and Media-native",
+    "one_liner": "unclear",
+    "auth_methods": [
+      "unclear"
+    ],
+    "access": "unclear",
+    "api_type": "unclear",
+    "api_breadth": "unclear",
+    "endpoint_estimate": null,
+    "existing_mcp": "unclear",
+    "mcp_url": null,
+    "buildability": "blocked",
+    "main_blocker": "poor_docs",
+    "webhooks": "unclear",
+    "openapi_spec": "unclear",
+    "rate_limits_documented": "unclear",
+    "sandbox_or_test_mode": "unclear",
+    "evidence": [],
+    "confidence": "low",
+    "needs_human": true,
+    "notes": "The fetched pages provide no documentation, API reference, or usage instructions for Mermaid CLI. The GitHub page text only lists commits/files without README content, and the docs page only contains a redirect notice.",
+    "id": 98,
+    "pages_fetched": [
+      "https://github.com/mermaid-js/mermaid-cli",
+      "https://mermaid.ai/open-source/config/mermaidCLI.html",
+      "https://mermaid.ai/pricing/",
+      "https://mermaideditor.app/pricing",
+      "https://github.com/data-mermaid/mermaid-api/blob/master/docs/source/authentication.rst",
+      "https://developer.lucid.co/reference/listmermaiddiagrams",
+      "https://www.mermaideditor.io/pricing"
+    ],
+    "re_researched": true,
+    "verifier_flags_before": 7,
+    "verifier_flags_after": 5
+  }
+]

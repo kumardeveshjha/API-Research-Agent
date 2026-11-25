@@ -1,0 +1,148 @@
+[
+  {
+    "id": 35,
+    "name": "Mailchimp",
+    "flags_before": 4,
+    "flags_after": 4,
+    "issues": [
+      {
+        "field": "openapi_spec",
+        "url": "https://mailchimp.com/developer/marketing/api-concepts/api-structure",
+        "why": "quote_not_found_in_any_fetched_page"
+      },
+      {
+        "field": "auth_methods",
+        "why": "No evidence quote provided for authentication methods."
+      },
+      {
+        "field": "access",
+        "why": "No evidence quote provided for API access tier or pricing."
+      },
+      {
+        "field": "buildability",
+        "why": "No evidence quote provided for buildability, auth, or access readiness."
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Sherlock",
+    "flags_before": 6,
+    "flags_after": 5,
+    "issues": [
+      {
+        "field": "existing_mcp",
+        "why": "rule: 'community' MCP claimed but no evidence quote mentions MCP"
+      },
+      {
+        "field": "access",
+        "why": "rule: no web API (cli_only/none) so access should be no_api"
+      },
+      {
+        "field": "auth_methods",
+        "why": "No evidence quote provided for auth_methods."
+      },
+      {
+        "field": "access",
+        "why": "No evidence quote provided for access."
+      },
+      {
+        "field": "api_type",
+        "why": "No evidence quote provided for api_type."
+      },
+      {
+        "field": "buildability",
+        "why": "The quote only states it uses the open-source Sherlock project and does not support readiness or specific caveats."
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Linear",
+    "flags_before": 4,
+    "flags_after": 4,
+    "issues": [
+      {
+        "field": "existing_mcp",
+        "url": "https://linear.app/docs/mcp",
+        "why": "quote_not_found_in_any_fetched_page"
+      },
+      {
+        "field": "access",
+        "why": "Quote states API access is included, but does not specify free tier or self-serve."
+      },
+      {
+        "field": "api_type",
+        "why": "No evidence quote provided for api_type."
+      },
+      {
+        "field": "buildability",
+        "why": "No evidence quote provided for buildability."
+      }
+    ],
+    "status": "re-research failed: LLM response was truncated and could not be recovered. Response starts: {\n  \"name\": \"Linear\",\n  \"category\": \"Productivity and Project Management\",\n  \""
+  },
+  {
+    "id": 81,
+    "name": "Stripe",
+    "flags_before": 4,
+    "flags_after": 4,
+    "issues": [
+      {
+        "field": "auth_methods",
+        "url": "https://docs.stripe.com/api/authentication",
+        "why": "quote_not_found_in_any_fetched_page"
+      },
+      {
+        "field": "access",
+        "why": "Quote only mentions no setup, monthly, or hidden fees; it does not confirm self-serve access or fully free usage."
+      },
+      {
+        "field": "api_type",
+        "why": "No evidence quote provided for api_type."
+      },
+      {
+        "field": "buildability",
+        "why": "No evidence quote provided for buildability."
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Mermaid CLI",
+    "flags_before": 7,
+    "flags_after": 5,
+    "issues": [
+      {
+        "field": "api_type",
+        "url": "https://mermaid.ai/open-source/config/mermaidCLI.html",
+        "why": "quote_not_found_in_any_fetched_page"
+      },
+      {
+        "field": "buildability",
+        "url": "https://mermaid.ai/open-source/config/mermaidCLI.html",
+        "why": "quote_not_found_in_any_fetched_page"
+      },
+      {
+        "field": "access",
+        "why": "rule: no web API (cli_only/none) so access should be no_api"
+      },
+      {
+        "field": "auth_methods",
+        "why": "No evidence provided for auth_methods."
+      },
+      {
+        "field": "access",
+        "why": "No evidence provided for access."
+      },
+      {
+        "field": "api_type",
+        "why": "The quote only states that mermaid CLI was moved to mermaid-cli, not that it is CLI-only."
+      },
+      {
+        "field": "buildability",
+        "why": "The quote only mentions a repo or page move and does not establish buildability or caveats."
+      }
+    ]
+  }
+]

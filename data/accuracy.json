@@ -1,0 +1,435 @@
+{
+  "v1": {
+    "per_field": {
+      "auth_methods": {
+        "correct": 8,
+        "total": 25,
+        "pct": 32.0
+      },
+      "access": {
+        "correct": 14,
+        "total": 25,
+        "pct": 56.0
+      },
+      "api_type": {
+        "correct": 22,
+        "total": 25,
+        "pct": 88.0
+      },
+      "existing_mcp": {
+        "correct": 16,
+        "total": 25,
+        "pct": 64.0
+      },
+      "buildability": {
+        "correct": 7,
+        "total": 25,
+        "pct": 28.0
+      }
+    },
+    "overall": {
+      "correct": 67,
+      "total": 125,
+      "pct": 53.6
+    },
+    "misses": [
+      {
+        "app": "Twenty",
+        "field": "auth_methods",
+        "gold": "api_key|oauth2",
+        "agent": [
+          "api_key",
+          "bearer_token",
+          "oauth2"
+        ]
+      },
+      {
+        "app": "Twenty",
+        "field": "existing_mcp",
+        "gold": "official",
+        "agent": "community"
+      },
+      {
+        "app": "Twenty",
+        "field": "buildability",
+        "gold": "ready_with_caveats",
+        "agent": "ready"
+      },
+      {
+        "app": "Intercom",
+        "field": "buildability",
+        "gold": "ready_with_caveats",
+        "agent": "ready"
+      },
+      {
+        "app": "Slack",
+        "field": "api_type",
+        "gold": "rest",
+        "agent": "unclear"
+      },
+      {
+        "app": "Slack",
+        "field": "buildability",
+        "gold": "ready_with_caveats",
+        "agent": "ready"
+      },
+      {
+        "app": "Pumble",
+        "field": "buildability",
+        "gold": "ready_with_caveats",
+        "agent": "ready"
+      },
+      {
+        "app": "Meta Ads",
+        "field": "auth_methods",
+        "gold": "oauth2",
+        "agent": [
+          "bearer_token",
+          "oauth2"
+        ]
+      },
+      {
+        "app": "Meta Ads",
+        "field": "access",
+        "gold": "approval_required",
+        "agent": "self_serve_free"
+      },
+      {
+        "app": "Meta Ads",
+        "field": "buildability",
+        "gold": "ready_with_caveats",
+        "agent": "ready"
+      },
+      {
+        "app": "GoHighLevel",
+        "field": "auth_methods",
+        "gold": "oauth2",
+        "agent": [
+          "bearer_token",
+          "oauth2"
+        ]
+      },
+      {
+        "app": "GoHighLevel",
+        "field": "access",
+        "gold": "trial",
+        "agent": "self_serve_free"
+      },
+      {
+        "app": "GoHighLevel",
+        "field": "buildability",
+        "gold": "ready_with_caveats",
+        "agent": "ready"
+      },
+      {
+        "app": "Shopify",
+        "field": "auth_methods",
+        "gold": "oauth2|api_key",
+        "agent": [
+          "oauth2"
+        ]
+      },
+      {
+        "app": "Shopify",
+        "field": "access",
+        "gold": "self_servnne_free",
+        "agent": "unclear"
+      },
+      {
+        "app": "Shopify",
+        "field": "existing_mcp",
+        "gold": "none",
+        "agent": "official"
+      },
+      {
+        "app": "Shopify",
+        "field": "buildability",
+        "gold": "ready_with_caveats",
+        "agent": "ready"
+      },
+      {
+        "app": "Amazon Selling Partner",
+        "field": "auth_methods",
+        "gold": "oauth2|other",
+        "agent": [
+          "oauth2"
+        ]
+      },
+      {
+        "app": "Amazon Selling Partner",
+        "field": "existing_mcp",
+        "gold": "official",
+        "agent": "community"
+      },
+      {
+        "app": "Fanbasis",
+        "field": "auth_methods",
+        "gold": "free",
+        "agent": [
+          "api_key"
+        ]
+      },
+      {
+        "app": "Fanbasis",
+        "field": "access",
+        "gold": "self_serve_free",
+        "agent": "unclear"
+      },
+      {
+        "app": "Fanbasis",
+        "field": "existing_mcp",
+        "gold": "none",
+        "agent": "unclear"
+      },
+      {
+        "app": "MrScraper",
+        "field": "auth_methods",
+        "gold": "api_key",
+        "agent": [
+          "api_key",
+          "bearer_token"
+        ]
+      },
+      {
+        "app": "MrScraper",
+        "field": "buildability",
+        "gold": "ready_with_caveats",
+        "agent": "ready"
+      },
+      {
+        "app": "Sherlock",
+        "field": "access",
+        "gold": "no_api",
+        "agent": "self_serve_free"
+      },
+      {
+        "app": "Sherlock",
+        "field": "buildability",
+        "gold": "blocked",
+        "agent": "ready_with_caveats"
+      },
+      {
+        "app": "Clay",
+        "field": "access",
+        "gold": "self_serve_free",
+        "agent": "trial"
+      },
+      {
+        "app": "Clay",
+        "field": "buildability",
+        "gold": "ready_with_caveats",
+        "agent": "ready"
+      },
+      {
+        "app": "GitHub",
+        "field": "auth_methods",
+        "gold": "oauth2|bearer_token|jwt",
+        "agent": [
+          "bearer_token"
+        ]
+      },
+      {
+        "app": "GitHub",
+        "field": "api_type",
+        "gold": "both",
+        "agent": "rest"
+      },
+      {
+        "app": "GitHub",
+        "field": "existing_mcp",
+        "gold": "official",
+        "agent": "unclear"
+      },
+      {
+        "app": "Neo4j",
+        "field": "auth_methods",
+        "gold": "oauth2|basic|bearer_token",
+        "agent": [
+          "basic",
+          "bearer_token"
+        ]
+      },
+      {
+        "app": "Neo4j",
+        "field": "buildability",
+        "gold": "ready_with_caveats",
+        "agent": "ready"
+      },
+      {
+        "app": "Notion",
+        "field": "auth_methods",
+        "gold": "oauth2|bearer_token",
+        "agent": [
+          "api_key",
+          "bearer_token",
+          "oauth2"
+        ]
+      },
+      {
+        "app": "Notion",
+        "field": "buildability",
+        "gold": "ready_with_caveats",
+        "agent": "ready"
+      },
+      {
+        "app": "Smartsheet",
+        "field": "auth_methods",
+        "gold": "oauth2|bearer_token",
+        "agent": [
+          "api_key",
+          "bearer_token",
+          "oauth2"
+        ]
+      },
+      {
+        "app": "Smartsheet",
+        "field": "buildability",
+        "gold": "ready_with_caveats",
+        "agent": "ready"
+      },
+      {
+        "app": "Stripe",
+        "field": "auth_methods",
+        "gold": "api_key|oauth2",
+        "agent": [
+          "api_key"
+        ]
+      },
+      {
+        "app": "iPayX",
+        "field": "auth_methods",
+        "gold": "bearer_token",
+        "agent": [
+          "unclear"
+        ]
+      },
+      {
+        "app": "iPayX",
+        "field": "access",
+        "gold": "self_serve_free",
+        "agent": "unclear"
+      },
+      {
+        "app": "iPayX",
+        "field": "api_type",
+        "gold": "rest",
+        "agent": "unclear"
+      },
+      {
+        "app": "iPayX",
+        "field": "existing_mcp",
+        "gold": "official",
+        "agent": "community"
+      },
+      {
+        "app": "iPayX",
+        "field": "buildability",
+        "gold": "ready_with_caveats",
+        "agent": "blocked"
+      },
+      {
+        "app": "PitchBook",
+        "field": "access",
+        "gold": "partner_gated",
+        "agent": "paid_required"
+      },
+      {
+        "app": "PitchBook",
+        "field": "existing_mcp",
+        "gold": "official",
+        "agent": "none"
+      },
+      {
+        "app": "PitchBook",
+        "field": "buildability",
+        "gold": "ready_with_caveats",
+        "agent": "blocked"
+      },
+      {
+        "app": "NotebookLM",
+        "field": "access",
+        "gold": "self_serve_free",
+        "agent": "paid_required"
+      },
+      {
+        "app": "NotebookLM",
+        "field": "existing_mcp",
+        "gold": "official(gemini)",
+        "agent": "community"
+      },
+      {
+        "app": "Otter AI",
+        "field": "auth_methods",
+        "gold": "bearer_token",
+        "agent": [
+          "api_key",
+          "bearer_token",
+          "oauth2"
+        ]
+      },
+      {
+        "app": "Otter AI",
+        "field": "buildability",
+        "gold": "ready_with_caveats",
+        "agent": "ready"
+      },
+      {
+        "app": "Mermaid CLI",
+        "field": "auth_methods",
+        "gold": "none",
+        "agent": [
+          "unclear"
+        ]
+      },
+      {
+        "app": "Mermaid CLI",
+        "field": "access",
+        "gold": "no_api",
+        "agent": "unclear"
+      },
+      {
+        "app": "Mermaid CLI",
+        "field": "existing_mcp",
+        "gold": "community",
+        "agent": "official"
+      },
+      {
+        "app": "Mermaid CLI",
+        "field": "buildability",
+        "gold": "blocked",
+        "agent": "ready_with_caveats"
+      },
+      {
+        "app": "DealCloud",
+        "field": "auth_methods",
+        "gold": "api_key|oauth2|bearer_token",
+        "agent": [
+          "api_key",
+          "oauth2"
+        ]
+      },
+      {
+        "app": "DealCloud",
+        "field": "access",
+        "gold": "partner_gated",
+        "agent": "unclear"
+      },
+      {
+        "app": "Gorgias",
+        "field": "auth_methods",
+        "gold": "basic|oauth2",
+        "agent": [
+          "api_key",
+          "basic"
+        ]
+      },
+      {
+        "app": "Gorgias",
+        "field": "buildability",
+        "gold": "ready_with_caveats",
+        "agent": "ready"
+      }
+    ]
+  },
+  "v2": null
+}

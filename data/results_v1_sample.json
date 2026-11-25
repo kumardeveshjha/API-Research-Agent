@@ -1,0 +1,255 @@
+[
+  {
+    "name": "HubSpot",
+    "category": "CRM and Sales",
+    "one_liner": "HubSpot connects marketing, sales, and service teams around customer data to drive business growth.",
+    "auth_methods": [
+      "oauth2",
+      "bearer_token",
+      "api_key"
+    ],
+    "access": "self_serve_free",
+    "api_type": "rest",
+    "api_breadth": "large",
+    "endpoint_estimate": null,
+    "existing_mcp": "official",
+    "mcp_url": "https://developers.hubspot.com/ai-tools/mcp",
+    "buildability": "ready",
+    "main_blocker": "none",
+    "webhooks": "unclear",
+    "openapi_spec": "unclear",
+    "rate_limits_documented": "yes",
+    "sandbox_or_test_mode": "unclear",
+    "evidence": [
+      {
+        "field": "existing_mcp",
+        "url": "https://developers.hubspot.com/ai-tools/mcp",
+        "quote": "HubSpot offers two distinct MCP (Model Context Protocol) servers"
+      },
+      {
+        "field": "auth_methods",
+        "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+        "quote": "your app must be built using OAuth authentication."
+      },
+      {
+        "field": "access",
+        "url": "https://developers.hubspot.com/docs/developer-tooling/platform/apis-by-tier",
+        "quote": "subscription tier (Free, Starter, Professional, Enterprise)."
+      }
+    ],
+    "confidence": "high",
+    "needs_human": false,
+    "notes": "HubSpot provides official remote and local MCP servers, REST APIs across extensive CRM/CMS objects, and free access tier options.",
+    "id": 2,
+    "pages_fetched": [
+      "https://hubspot.com",
+      "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+      "https://developers.hubspot.com/docs/apps/legacy-apps/authentication/intro-to-auth",
+      "https://developers.hubspot.com/docs/developer-tooling/platform/apis-by-tier",
+      "https://developers.hubspot.com/docs/apps/developer-platform/developer-seats",
+      "https://developers.hubspot.com/ai-tools/mcp"
+    ]
+  },
+  {
+    "name": "Zendesk",
+    "category": "Support and Helpdesk",
+    "one_liner": "Zendesk is a customer service and engagement platform providing ticketing, messaging, and support solutions.",
+    "auth_methods": [
+      "oauth2",
+      "bearer_token",
+      "basic",
+      "jwt",
+      "api_key"
+    ],
+    "access": "trial",
+    "api_type": "rest",
+    "api_breadth": "unclear",
+    "endpoint_estimate": null,
+    "existing_mcp": "unclear",
+    "mcp_url": null,
+    "buildability": "ready",
+    "main_blocker": "none",
+    "webhooks": "unclear",
+    "openapi_spec": "unclear",
+    "rate_limits_documented": "yes",
+    "sandbox_or_test_mode": "yes",
+    "evidence": [
+      {
+        "field": "auth_methods",
+        "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "quote": "Zendesk supports using OAuth access tokens to authenticate API requests."
+      },
+      {
+        "field": "access",
+        "url": "https://developer.zendesk.com/documentation/api-basics/getting-started/getting-a-trial-or-sponsored-account-for-development/",
+        "quote": "You can try out the Zendesk platform with a free, 14-day trial account."
+      },
+      {
+        "field": "rate_limits_documented",
+        "url": "https://developer.zendesk.com/api-reference/sales-crm/rate-limits/",
+        "quote": "You can make up to 36,000 requests per hour"
+      }
+    ],
+    "confidence": "high",
+    "needs_human": false,
+    "notes": "Zendesk provides REST APIs across ticketing, sales CRM, and conversations, supporting OAuth access tokens, basic auth, and JWTs. Free 14-day trial accounts and sponsored test accounts are available for development.",
+    "id": 11,
+    "pages_fetched": [
+      "https://zendesk.com",
+      "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+      "https://developer.zendesk.com/documentation/conversations/getting-started/api-authentication/",
+      "https://developer.zendesk.com/api-reference/sales-crm/rate-limits/",
+      "https://developer.zendesk.com/documentation/api-basics/getting-started/getting-a-trial-or-sponsored-account-for-development/",
+      "https://www.zendesk.com/blog/zendesk-insights/innovation/zendesk-ai-mcp-client/"
+    ]
+  },
+  {
+    "name": "Mailchimp",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Mailchimp is a marketing and transactional email platform for audience management and automated campaigns.",
+    "auth_methods": [
+      "api_key",
+      "oauth2"
+    ],
+    "access": "self_serve_free",
+    "api_type": "rest",
+    "api_breadth": "large",
+    "endpoint_estimate": null,
+    "existing_mcp": "official",
+    "mcp_url": "https://mailchimp.com/developer/_mcp/server",
+    "buildability": "ready",
+    "main_blocker": "none",
+    "webhooks": "yes",
+    "openapi_spec": "yes",
+    "rate_limits_documented": "unclear",
+    "sandbox_or_test_mode": "unclear",
+    "evidence": [
+      {
+        "field": "api_type",
+        "url": "https://mailchimp.com/developer/marketing/api-concepts/api-structure",
+        "quote": "The Marketing API generally follows REST conventions, with some deviations."
+      },
+      {
+        "field": "existing_mcp",
+        "url": "https://mailchimp.com/developer/marketing/build/ai-tools/mcp-server",
+        "quote": "This documentation site is itself an MCP server."
+      },
+      {
+        "field": "openapi_spec",
+        "url": "https://mailchimp.com/developer/marketing/api-concepts/api-structure",
+        "quote": "We use the OpenAPI Specification (formerly known as Swagger)"
+      }
+    ],
+    "confidence": "high",
+    "needs_human": false,
+    "notes": "Mailchimp offers both standard API keys and OAuth2 authentication, webhooks, and an OpenAPI spec. Note that its official MCP server searches docs rather than executing account operations.",
+    "id": 35,
+    "pages_fetched": [
+      "https://mailchimp.com/developer",
+      "https://mailchimp.com/help/about-api-keys/",
+      "https://mailchimp.com/developer/marketing/api-concepts/api-structure",
+      "https://mailchimp.com/pricing/marketing/",
+      "https://mailchimp.com/developer/marketing",
+      "https://mailchimp.com/developer/marketing/build/ai-tools/mcp-server"
+    ]
+  },
+  {
+    "name": "Linear",
+    "category": "Productivity and Project Management",
+    "one_liner": "Linear is a project and issue tracking tool designed for software development teams.",
+    "auth_methods": [
+      "oauth2",
+      "api_key"
+    ],
+    "access": "self_serve_free",
+    "api_type": "graphql",
+    "api_breadth": "unclear",
+    "endpoint_estimate": null,
+    "existing_mcp": "official",
+    "mcp_url": "https://mcp.linear.app/mcp",
+    "buildability": "ready",
+    "main_blocker": "none",
+    "webhooks": "yes",
+    "openapi_spec": "no",
+    "rate_limits_documented": "yes",
+    "sandbox_or_test_mode": "unclear",
+    "evidence": [
+      {
+        "field": "auth_methods",
+        "url": "https://developers.linear.app",
+        "quote": "Use OAuth 2.0 or personal API keys"
+      },
+      {
+        "field": "api_type",
+        "url": "https://developers.linear.app",
+        "quote": "GraphQL API to query and mutate your data"
+      },
+      {
+        "field": "access",
+        "url": "https://linear.app/pricing",
+        "quote": "API and webhook access Included"
+      }
+    ],
+    "confidence": "high",
+    "needs_human": false,
+    "notes": "Linear provides a GraphQL API and an official hosted remote MCP server.",
+    "id": 73,
+    "pages_fetched": [
+      "https://developers.linear.app",
+      "https://linear.app/developers/oauth-2-0-authentication",
+      "https://linear.app/developers",
+      "https://linear.app/pricing",
+      "https://linear.app/docs/mcp",
+      "https://github.com/jerhadf/linear-mcp-server"
+    ]
+  },
+  {
+    "name": "Plaid",
+    "category": "Finance and Fintech",
+    "one_liner": "Connects financial accounts to apps to retrieve banking data, verify identities, and facilitate payments.",
+    "auth_methods": [
+      "api_key"
+    ],
+    "access": "self_serve_free",
+    "api_type": "rest",
+    "api_breadth": "large",
+    "endpoint_estimate": null,
+    "existing_mcp": "official",
+    "mcp_url": "https://api.dashboard.plaid.com/mcp/",
+    "buildability": "ready",
+    "main_blocker": "none",
+    "webhooks": "yes",
+    "openapi_spec": "unclear",
+    "rate_limits_documented": "unclear",
+    "sandbox_or_test_mode": "yes",
+    "evidence": [
+      {
+        "field": "existing_mcp",
+        "url": "https://plaid.com/docs/resources/mcp/",
+        "quote": "Plaid offers two Model Context Protocol (MCP) servers"
+      },
+      {
+        "field": "access",
+        "url": "https://plaid.com/pricing/",
+        "quote": "Sandbox is always free."
+      },
+      {
+        "field": "auth_methods",
+        "url": "https://plaid.com/docs/api/products/auth/",
+        "quote": "Your Plaid API client_id ."
+      }
+    ],
+    "confidence": "high",
+    "needs_human": false,
+    "notes": "Plaid provides official remote and local MCP servers, a free sandbox environment, and self-serve pay-as-you-go access.",
+    "id": 82,
+    "pages_fetched": [
+      "https://plaid.com/docs",
+      "https://plaid.com/docs/api/products/auth/",
+      "https://plaid.com/docs/auth/",
+      "https://plaid.com/pricing/",
+      "https://news.ycombinator.com/item?id=37614748",
+      "https://plaid.com/docs/resources/mcp/"
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+.env
+myvenv
+__pycache__/
+.pytest_cache/
+.env
+*.pyc
+data/research_results*.json

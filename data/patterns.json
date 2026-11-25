@@ -1,0 +1,328 @@
+{
+  "n_analyzed": 100,
+  "n_errors": 0,
+  "auth_counts": {
+    "oauth2": 60,
+    "api_key": 58,
+    "bearer_token": 37,
+    "basic": 14,
+    "jwt": 5,
+    "bot_token": 3,
+    "unclear": 2,
+    "other": 1,
+    "none": 1
+  },
+  "auth_pct_of_apps": {
+    "oauth2": 60.0,
+    "api_key": 58.0,
+    "bearer_token": 37.0,
+    "basic": 14.0,
+    "jwt": 5.0,
+    "bot_token": 3.0,
+    "unclear": 2.0,
+    "other": 1.0,
+    "none": 1.0
+  },
+  "access_counts": {
+    "self_serve_free": 55,
+    "unclear": 15,
+    "paid_required": 13,
+    "trial": 11,
+    "approval_required": 6
+  },
+  "access_by_category": {
+    "AI, Research and Media-native": {
+      "approval_required": 0,
+      "paid_required": 4,
+      "self_serve_free": 3,
+      "trial": 0,
+      "unclear": 3
+    },
+    "CRM and Sales": {
+      "approval_required": 0,
+      "paid_required": 0,
+      "self_serve_free": 7,
+      "trial": 1,
+      "unclear": 2
+    },
+    "Communications and Messaging": {
+      "approval_required": 0,
+      "paid_required": 1,
+      "self_serve_free": 6,
+      "trial": 2,
+      "unclear": 1
+    },
+    "Data, SEO and Scraping": {
+      "approval_required": 1,
+      "paid_required": 1,
+      "self_serve_free": 5,
+      "trial": 3,
+      "unclear": 0
+    },
+    "Developer, Infra and Data platforms": {
+      "approval_required": 0,
+      "paid_required": 1,
+      "self_serve_free": 7,
+      "trial": 1,
+      "unclear": 1
+    },
+    "Ecommerce": {
+      "approval_required": 1,
+      "paid_required": 2,
+      "self_serve_free": 2,
+      "trial": 1,
+      "unclear": 4
+    },
+    "Finance and Fintech": {
+      "approval_required": 1,
+      "paid_required": 1,
+      "self_serve_free": 7,
+      "trial": 0,
+      "unclear": 1
+    },
+    "Marketing, Ads, Email and Social": {
+      "approval_required": 3,
+      "paid_required": 0,
+      "self_serve_free": 7,
+      "trial": 0,
+      "unclear": 0
+    },
+    "Productivity and Project Management": {
+      "approval_required": 0,
+      "paid_required": 1,
+      "self_serve_free": 8,
+      "trial": 0,
+      "unclear": 1
+    },
+    "Support and Helpdesk": {
+      "approval_required": 0,
+      "paid_required": 2,
+      "self_serve_free": 3,
+      "trial": 3,
+      "unclear": 2
+    }
+  },
+  "auth_by_category": {
+    "AI, Research and Media-native": {
+      "api_key": 7,
+      "basic": 0,
+      "bearer_token": 6,
+      "bot_token": 0,
+      "jwt": 0,
+      "none": 0,
+      "oauth2": 4,
+      "other": 0,
+      "unclear": 1
+    },
+    "CRM and Sales": {
+      "api_key": 6,
+      "basic": 1,
+      "bearer_token": 2,
+      "bot_token": 0,
+      "jwt": 0,
+      "none": 0,
+      "oauth2": 10,
+      "other": 0,
+      "unclear": 0
+    },
+    "Communications and Messaging": {
+      "api_key": 4,
+      "basic": 4,
+      "bearer_token": 3,
+      "bot_token": 3,
+      "jwt": 1,
+      "none": 0,
+      "oauth2": 7,
+      "other": 0,
+      "unclear": 0
+    },
+    "Data, SEO and Scraping": {
+      "api_key": 8,
+      "basic": 1,
+      "bearer_token": 4,
+      "bot_token": 0,
+      "jwt": 0,
+      "none": 1,
+      "oauth2": 3,
+      "other": 0,
+      "unclear": 0
+    },
+    "Developer, Infra and Data platforms": {
+      "api_key": 4,
+      "basic": 1,
+      "bearer_token": 6,
+      "bot_token": 0,
+      "jwt": 2,
+      "none": 0,
+      "oauth2": 5,
+      "other": 0,
+      "unclear": 0
+    },
+    "Ecommerce": {
+      "api_key": 3,
+      "basic": 1,
+      "bearer_token": 3,
+      "bot_token": 0,
+      "jwt": 0,
+      "none": 0,
+      "oauth2": 7,
+      "other": 1,
+      "unclear": 0
+    },
+    "Finance and Fintech": {
+      "api_key": 5,
+      "basic": 0,
+      "bearer_token": 2,
+      "bot_token": 0,
+      "jwt": 0,
+      "none": 0,
+      "oauth2": 4,
+      "other": 0,
+      "unclear": 1
+    },
+    "Marketing, Ads, Email and Social": {
+      "api_key": 4,
+      "basic": 1,
+      "bearer_token": 3,
+      "bot_token": 0,
+      "jwt": 0,
+      "none": 0,
+      "oauth2": 8,
+      "other": 0,
+      "unclear": 0
+    },
+    "Productivity and Project Management": {
+      "api_key": 9,
+      "basic": 1,
+      "bearer_token": 3,
+      "bot_token": 0,
+      "jwt": 1,
+      "none": 0,
+      "oauth2": 9,
+      "other": 0,
+      "unclear": 0
+    },
+    "Support and Helpdesk": {
+      "api_key": 8,
+      "basic": 4,
+      "bearer_token": 5,
+      "bot_token": 0,
+      "jwt": 1,
+      "none": 0,
+      "oauth2": 3,
+      "other": 0,
+      "unclear": 0
+    }
+  },
+  "blockers": {
+    "none": 84,
+    "paid_plan": 5,
+    "partner_approval": 3,
+    "no_public_api": 3,
+    "other": 2,
+    "contact_sales": 2,
+    "poor_docs": 1
+  },
+  "buildability": {
+    "ready": 80,
+    "ready_with_caveats": 18,
+    "blocked": 2
+  },
+  "mcp": {
+    "official": 81,
+    "community": 13,
+    "unclear": 3,
+    "none": 3
+  },
+  "easy_wins": [
+    "Salesforce",
+    "HubSpot",
+    "Pipedrive",
+    "Attio",
+    "Twenty",
+    "Podio",
+    "Zoho CRM",
+    "Close",
+    "Zendesk",
+    "Intercom",
+    "Freshdesk",
+    "Front",
+    "LiveAgent",
+    "Plain",
+    "Twilio",
+    "Zoho Cliq",
+    "Lark (Larksuite)",
+    "Pumble",
+    "Telegram",
+    "Aircall",
+    "Vonage",
+    "Meta Ads",
+    "GoHighLevel",
+    "Mailchimp",
+    "Klaviyo",
+    "systeme.io",
+    "Threads (Meta)",
+    "SendGrid",
+    "WooCommerce",
+    "BigCommerce",
+    "Gumroad",
+    "DataForSEO",
+    "SE Ranking",
+    "MrScraper",
+    "Apify",
+    "Firecrawl",
+    "Bright Data",
+    "Clay",
+    "GitHub",
+    "Vercel",
+    "Netlify",
+    "Cloudflare",
+    "Supabase",
+    "Neo4j",
+    "Snowflake",
+    "MongoDB Atlas",
+    "Notion",
+    "Airtable",
+    "Linear",
+    "Jira",
+    "Asana",
+    "Monday.com",
+    "ClickUp",
+    "Harvest",
+    "Stripe",
+    "Plaid",
+    "Paygent Connect",
+    "QuickBooks",
+    "Xero",
+    "Brex",
+    "Ramp",
+    "Consensus",
+    "Reducto",
+    "Grain"
+  ],
+  "needs_outreach": [
+    "Google Ads",
+    "LinkedIn Ads",
+    "Pinterest",
+    "Amazon Selling Partner",
+    "Waterfall.io",
+    "Binance"
+  ],
+  "not_buildable": [
+    "Sherlock",
+    "iPayX",
+    "PitchBook",
+    "Mermaid CLI"
+  ],
+  "needs_human_flagged": [
+    "Salesforce Commerce Cloud",
+    "fanbasis",
+    "Paygent Connect",
+    "iPayX",
+    "Mermaid CLI",
+    "YouTube Transcript"
+  ],
+  "low_confidence": [
+    "iPayX"
+  ]
+}
