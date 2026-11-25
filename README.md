@@ -69,7 +69,7 @@ data/
   human_log.md         # honest log of manual interventions
   limitations.json     # honest disclosure of known gaps
 site/
-  template.html        # the case study page (data-driven, no build step)
+  index.html        # the case study page (data-driven, no build step)
 ```
 
 ## Notes
